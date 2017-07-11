@@ -64,6 +64,11 @@ header img {
 .sobremi, #contactame {
   background-color: rgba(203, 212, 219, 0.4); }
 
+.abilities, .carousel{
+  height: 50px;
+  margin-left: 30px;
+}  
+
 .proyecto__img {
   border: 2px solid darkgray;
   display: flex;
@@ -82,4 +87,14 @@ footer {
   footer p {
     color: #ffffff; }
 
+
+@media only screen and (min-device-width: 768px){
+  
+}
+@media only screen and (min-device-width: 992px){
+ 
+}
+@media only screen and (min-device-width:1200px){
+ 
+}
 /*# sourceMappingURL=main.css.map */
