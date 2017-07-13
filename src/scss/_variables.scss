@@ -1,0 +1,36 @@
+$celeste: rgba(203, 212, 219, 0.4);
+$morado: rgb(197, 126, 135);
+$lilaClaro: #cdc5ba;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment{
+  display:none;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  height:18px;
+}​
+
+::-webkit-scrollbar-track-piece {
+  background-color:#aabbcc;
+}
+::-webkit-scrollbar-thumb:vertical{
+  height:20px;
+  background-color:rgb(197, 126, 135);
+  border-radius: 5px;
+}
+
+h4{
+	font-weight: 700;
+}
+h5{
+	color: #876a5f;
+}

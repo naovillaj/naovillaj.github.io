@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Portfolio | Naomi Villanueva</title>
+    <title>Portafolio | Naomi Villanueva</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +18,7 @@
     <header id="inicio" class="navbar-fixed">
       <nav class="nav-a">
         <div class="nav-wrapper container">
-          <a href="#inicio" class="brand-logo"><img src="assets/img/marcapersonal.png"></a>
+          <a href="#inicio" class="brand-logo"><img src="assets/img/marcapersonal.png" class="nav-logo responsive-img"></a>
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#sobre-mi">Sobre mi</a></li>
@@ -28,7 +28,7 @@
           <ul  class="side-nav" id="mobile-demo">
             <li style="padding-top: 0;">
             <div class="user-view" style="height:64px">
-              <a href="#inicio" class="brand-logo"><img class="nav-logo" src="assets/img/marcapersonal.png" alt="naomi"></a>
+              <a href="#inicio" class="brand-logo"><img class="nav-logo responsive-img" src="assets/img/marcapersonal.png" alt="naomi"></a>
             </div>
           </li>
             <li><a href="#sobre-mi">Sobre mi</a></li>
@@ -51,37 +51,47 @@
     <section id="sobre-mi" class="sobremi scrollspy">
       <div class="container">
         <div class="row">
-          <div class="col s12 m12 center">
-            <h4>SOBRE MI</h4>
+          <div class="col s12 m12 center valign-wrapper">
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
+            <h4 class="col s4 m4 center">SOBRE MI</h4>
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
           </div>
-          <div class="col s12 m12 center">
+          <!-- <div class="col s12 m12 center">
               <div class="divider d-width center lightgray"></div>
-          </div>
+          </div> -->
         </div>
-        <div class="row center-align">
-          <div class="col s12 m4">
+        <div class="row">
+          <div class="col s12 l4 center-align">
             <img src="assets/img/foto-Naomi.jpg" alt="naomi" class="responsive-img circle" width="250px">
           </div>
-          <div class="col s12 m4">
-            <h5>Descripción</h5>
+          <div class="col s12 l4">
+            <h5 class="center-align">Descripción</h5>
             <div class="profile">
-              <p>Bachiller en Ingeniería Industrial de la Universidad Nacional
-                de Trujillo y Front End Developer Jr. de Laboratoria.
-                Me considero apasionada por la programación.
-                Tengo una especialización en Gestión de Procesos.
-                Sé trabajar con metologías ágiles. Nivel de inglés avanzado.
-                Organizada, analítica e íntegra.</p>
+              <p>Front End Developer de Laboratoria con conocimientos en Javascript, jQuery, HTML, CSS, SASS, gulp; frameworks como Boostrap y Materialize.</p>
+              <p>Bachiller en Ingeniería Industrial de la Universidad Nacional de Trujillo con especialización en Gestión de Procesos y Mejora Continua.</p>
             </div>
           </div>
-          <div class="col s12 m4 center">
-            <h5>Conocimientos en</h5>
-            <div class="abilities center col s10 m10">
+          <div class="col s12 l4">
+            <h5 class="center-align">Conocimientos en</h5>
+            <div class="abilities center-align col s12 m12">
               <div class="carousel carousel-slider">
                 <a class="carousel-item" href="#one!">Desarrollo Web</a>
                 <a class="carousel-item" href="#two!">Metodología Ágil</a>
                 <a class="carousel-item" href="#three!">Gestión de Procesos</a>
                 <a class="carousel-item" href="#four!">Gestión de la Calidad</a>
               </div>
+            </div>
+            <h5 class="center-align">También en</h5>
+            <div class="tecAbilities center-align col s12 m12">
+              <span class="tecAbilities__imge"><img src="assets/img/ht/javascript.png"></span>
+              <span class="tecAbilities__imge"><img src="assets/img/ht/HTML5.png"></span>
+              <span class="tecAbilities__imge"><img src="assets/img/ht/CSS.png"></span>
+              <span class="tecAbilities__img"><img src="assets/img/ht/jquery.png"></span>
+              <span class="tecAbilities__img"><img src="assets/img/ht/sass.png"></span>
+              <span class="tecAbilities__img"><img src="assets/img/ht/npm.png"></span>
+              <span class="tecAbilities__img"><img src="assets/img/ht/gulp.png"></span>
+              <span class="tecAbilities__imga"><img src="assets/img/ht/bootstrap.png"></span>  
+              <span class="tecAbilities__imga"><img src="assets/img/ht/materialize.png"></span>                
             </div>
           </div>
         </div>
@@ -91,18 +101,19 @@
     <section id="mis-proyectos" class="white section scrollspy">
      <div class="container">
        <div class="row">
-         <div class="col s12 center-align">
-           <h4 class="uppercase">PROYECTOS</h4>
-           <div class="divider d-width lightgray"></div>
-         </div>
+         <div class="col s12 m12 center valign-wrapper">
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
+            <h4 class="col s4 m4 center">PROYECTOS</h4>
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
+          </div>
        </div>
        <h5>Proyectos Personales</h5>
        <div class="row">
          <div class="col s12 proyecto">
-            <div class="col s6 no-padding proyecto__img center">
+            <div class="col s12 m12 l6 no-padding proyecto__img center">
               <img src="assets\img\yape-logo.jpeg" alt="Yape" class="materialboxed responsive-img">
              </div>
-             <div class="col s6 no-padding proyecto__texto">
+             <div class="col s12 m12 l6 no-padding proyecto__texto">
                <p>YAPE</p>
                <p><span>Acerca del APP: </span> Es la nueva aplicación del Banco de Crédito del Perú, para hacer
                transferencias bancarias a la persona destino con solo su número de celular.</p>
@@ -119,7 +130,10 @@
              </div>
          </div>
          <div class="col s12 proyecto">
-            <div class="col s6 no-padding proyecto__texto">
+            <div class="col s12 m12 l6 push-l6 no-padding center proyecto__img">
+              <img src="assets\img\labcar-logo.png" alt="LabCar" class="materialboxed responsive-img">
+            </div>  
+            <div class="col s12 m12 l6 pull-l6 no-padding proyecto__texto">
               <p>LabCar</p>
               <p><span>Acerca del APP: </span> Landing Page y APP de empresa de taxis en el que se puede solicitar un taxi o
               convertirte en miembro de la red de taxistas de la empresa.</p>
@@ -133,17 +147,14 @@
                 </ul>
               </p>
               <a class="btn btn-default" role="button" href="https://naovillaj.github.io/LabCar-Sprint4/">Ver Proyecto</a>
-             </div>
-             <div class="col s6 no-padding center proyecto__img">
-              <img src="assets\img\labcar-logo.png" alt="LabCar" class="materialboxed responsive-img">
-             </div>
+             </div>                      
          </div>
          <h5>Proyectos Colaborativo</h5>
-         <div class="col s12 proyecto">
-           <div class="col s6 center no-padding proyecto__img">
+         <div class="col s12 m12 proyecto">
+           <div class="col s12 m12 l6 center no-padding proyecto__img">
              <img src="assets\img\pinterest-logo.jpg" alt="pinterest" class="materialboxed responsive-img">
            </div>
-           <div class="col s6 no-padding proyecto__texto">
+           <div class="col s12 m12 l6 no-padding proyecto__texto">
              <p>Pinterest</p>
              <p><span>Acerca del APP: </span> Plataforma para compartir imágenes que se encuentran en tableros personales
                temáticos, intereses, hobbies y mucho más.</p>
@@ -160,7 +171,10 @@
            </div>
          </div>
          <div class="col s12 proyecto">
-           <div class="col s6 no-padding proyecto__texto">
+            <div class="col s12 l6 push-l6 no-padding center proyecto__img">
+             <img src="assets\img\yummy-logo.png" alt="Yummy" class="materialboxed responsive-img">
+            </div>
+           <div class="col s12 m12 l6 pull-l6 no-padding proyecto__texto">
              <p>Yummy</p>
              <p><span>Acerca del Proyecto: </span> Reto en el que se desarrolló una idea propia por grupo. Se obtuvo el primer lugar</p>
              <p>
@@ -174,10 +188,7 @@
                </ul>
              </p>
              <a class="btn btn-default" role="button" href="https://naovillaj.github.io/Yummy/">Ver Proyecto</a>
-           </div>
-           <div class="col s6 no-padding center proyecto__img">
-             <img src="assets\img\yummy-logo.png" alt="Yummy" class="materialboxed responsive-img">
-           </div>
+           </div>           
          </div>
         </div>
       </div>
@@ -185,16 +196,17 @@
     <section id="contactame">
       <div class="container scrollspy">
         <div class="row center">
-          <div class="col s12 center-align">
-            <h4 class="uppercase">CONTÁCTAME</h4>
-            <div class="divider d-width lightgray"></div>
+          <div class="col s12 m12 center valign-wrapper">
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
+            <h4 class="col s4 m4 center">CONTÁCTAME</h4>
+            <img class="col s4 m4 center" src="assets/img/divider2.jpg" alt="divider">
           </div>
         </div>
         <div class="row">
-          <div class="col s6">
+          <div class="col s12 l6">
             ¡En hora buena! Llegaste hasta aquí. No dudes en contactarme, aquí te dejo mi información.
           </div>
-          <div class="col s6">
+          <div class="col s12 l6">
             <p><i class="fa fa-envelope-o" aria-hidden="true"></i> naovillaj@gmail.com</p>
             <p><i class="fa fa-mobile" aria-hidden="true"></i> (+51) 949288132</p>
             <p><i class="fa fa-skype" aria-hidden="true"></i> cynavia</p>
