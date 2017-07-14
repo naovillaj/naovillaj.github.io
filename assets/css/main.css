@@ -1,4 +1,7 @@
 @charset "UTF-8";
+.contactameContainer__datos p, .contactameContainer__cv {
+  margin-bottom: 20px; }
+
 * {
   padding: 0;
   margin: 0;
@@ -110,6 +113,9 @@ header img {
   .myAbilities__img img {
     width: 25%; }
 
+.otrasHab {
+  margin-top: 30px; }
+
 .proyecto {
   margin-bottom: 30px; }
   .proyecto__img {
@@ -130,20 +136,16 @@ header img {
   #contactame .row {
     margin-bottom: 0; }
 
-.contactameContainer__datos p {
-  margin-bottom: 20px; }
 .contactameContainer__datos p:hover {
   color: #c57e87;
   font-weight: 700;
   cursor: pointer; }
-.contactameContainer__cv {
-  margin-bottom: 20px; }
-  .contactameContainer__cv .fa {
-    color: black;
-    font-size: 35px;
-    padding: 10px; }
-  .contactameContainer__cv .fa:hover {
-    color: #c57e87; }
+.contactameContainer__cv .fa {
+  color: black;
+  font-size: 35px;
+  padding: 10px; }
+.contactameContainer__cv .fa:hover {
+  color: #c57e87; }
 
 footer {
   background-color: #c57e87;
