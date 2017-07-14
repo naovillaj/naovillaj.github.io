@@ -19,6 +19,12 @@ h5 {
 .h5-title {
   color: #c57e87 !important; }
 
+@media only screen and (max-device-width: 768px) {
+  .division {
+    margin-bottom: 0; } }
+@media only screen and (max-device-width: 992px) {
+  .division {
+    margin-bottom: 0; } }
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
   display: none; }
 
@@ -62,6 +68,8 @@ header img {
   background-image: url(../img/fondo2.jpeg);
   background-size: cover;
   background-position: top center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
   margin-bottom: 90px; }
@@ -69,7 +77,8 @@ header img {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    padding-top: 12%; }
+    display: flex;
+    align-items: center; }
   .logo__name {
     font-family: "Pacifico", "Josefin Sans", sans-serif;
     font-size: 80px;
@@ -123,12 +132,18 @@ header img {
 
 .contactameContainer__datos p {
   margin-bottom: 20px; }
+.contactameContainer__datos p:hover {
+  color: #c57e87;
+  font-weight: 700;
+  cursor: pointer; }
 .contactameContainer__cv {
   margin-bottom: 20px; }
   .contactameContainer__cv .fa {
     color: black;
     font-size: 35px;
     padding: 10px; }
+  .contactameContainer__cv .fa:hover {
+    color: #c57e87; }
 
 footer {
   background-color: #c57e87;
@@ -144,13 +159,24 @@ footer {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px; }
 
+  section {
+    margin-bottom: 0; }
+
+  .section {
+    padding-bottom: 0; }
+
   .logo__name {
-    font-size: 70px; }
+    font-size: 50px; }
+  .logo__description {
+    font-size: 20px; }
 
   h3 {
     font-size: 1.3rem; }
 
   h4 {
+    font-size: 0.9rem; }
+
+  h5 {
     font-size: 1.1rem; }
 
   .row .col {
@@ -163,13 +189,24 @@ footer {
     font-family: "Josefin Sans", sans-serif;
     font-size: 16px; }
 
+  section {
+    margin-bottom: 0; }
+
+  .section {
+    padding-bottom: 0; }
+
   .logo__name {
-    font-size: 70px; }
+    font-size: 50px; }
+  .logo__description {
+    font-size: 20px; }
 
   h3 {
     font-size: 1.3rem; }
 
   h4 {
+    font-size: 1.2rem; }
+
+  h5 {
     font-size: 1.1rem; }
 
   .row .col {

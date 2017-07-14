@@ -26,3 +26,15 @@ h5{
 .h5-title{
   color: $morado !important;
 }
+
+@media only screen and (max-device-width: 768px){
+	.division{
+	  margin-bottom: 0;
+	}
+}	
+
+@media only screen and (max-device-width: 992px){
+	.division{
+	  margin-bottom: 0;
+	}
+}
