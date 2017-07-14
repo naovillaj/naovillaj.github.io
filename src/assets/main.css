@@ -96,9 +96,9 @@ header img {
     width: 25%; }
 
 .myAbilities__img {
-  padding-right: 35px !important; }
+  padding-right: 35px; }
   .myAbilities__img img {
-    width: 25% !important; }
+    width: 25%; }
 
 .proyecto__img {
   border: 2px solid darkgray;

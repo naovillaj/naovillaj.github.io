@@ -88,6 +88,11 @@ header img {
   .tecAbilities__imga img {
     width: 25%; }
 
+.myAbilities__img {
+  padding-right: 35px; }
+  .myAbilities__img img {
+    width: 25%; }    
+
 .proyecto__img {
   border: 2px solid darkgray;
   display: flex;
