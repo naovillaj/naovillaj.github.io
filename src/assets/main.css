@@ -6,6 +6,19 @@
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px; }
 
+h4 {
+  font-weight: 700; }
+
+h5 {
+  color: #876a5f;
+  font-weight: 700; }
+
+.division {
+  margin-bottom: 40px; }
+
+.h5-title {
+  color: #c57e87 !important; }
+
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
   display: none; }
 
@@ -22,20 +35,14 @@
   background-color: #c57e87;
   border-radius: 5px; }
 
-h4 {
-  font-weight: 700; }
-
-h5 {
-  color: #876a5f; }
-
 .divider {
   border: 2px solid #c57e87;
   color: #c57e87;
   border-radius: 2px;
   margin-bottom: 10px; }
 
-section {
-  padding-top: 60px; }
+section, footer {
+  margin-bottom: 90px; }
 
 header img {
   width: 55px; }
@@ -56,7 +63,7 @@ header img {
   background-size: cover;
   background-position: top center;
   width: 100%;
-  height: 80vh; }
+  height: 90vh; }
   .logo .imagen {
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
@@ -69,7 +76,7 @@ header img {
   .logo__description {
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    color: #e8dfd3;
+    color: #c57e87;
     font-weight: 700; }
 
 .carousel a {
@@ -78,27 +85,47 @@ header img {
 .tecAbilities__imge {
   padding-right: 35px; }
   .tecAbilities__imge img {
-    width: 15%; }
+    width: 10%; }
 .tecAbilities__img {
   padding-right: 14px; }
   .tecAbilities__img img {
-    width: 20%; }
+    width: 15%; }
 .tecAbilities__imga {
   padding-right: 20px; }
   .tecAbilities__imga img {
     width: 25%; }
 
+.myAbilities__img {
+  padding-right: 35px; }
+  .myAbilities__img img {
+    width: 25%; }
+
 .proyecto__img {
   border: 2px solid darkgray;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 20px; }
   .proyecto__img img {
     width: 100%; }
+.proyecto__texto {
+  padding-bottom: 20px;
+  padding-left: 30px; }
+  .proyecto__texto a {
+    margin-top: 20px; }
 
 #contactame {
   padding-bottom: 40px; }
   #contactame .row {
     margin-bottom: 0; }
+
+.contactameContainer__datos p {
+  margin-bottom: 20px; }
+.contactameContainer__cv {
+  margin-bottom: 20px; }
+  .contactameContainer__cv a {
+    color: black;
+    font-size: 35px;
+    padding: 10px; }
 
 footer {
   background-color: #c57e87;

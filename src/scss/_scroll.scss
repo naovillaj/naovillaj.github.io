@@ -1,0 +1,17 @@
+::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment{
+  display:none;
+}
+
+::-webkit-scrollbar{
+  width:10px;
+  height:18px;
+}​
+
+::-webkit-scrollbar-track-piece {
+  background-color:#aabbcc;
+}
+::-webkit-scrollbar-thumb:vertical{
+  height:20px;
+  background-color:rgb(197, 126, 135);
+  border-radius: 5px;
+}

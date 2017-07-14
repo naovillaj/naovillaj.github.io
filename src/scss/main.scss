@@ -3,6 +3,7 @@
 //#cdc5ba;
 
 @import "variables";
+@import "scroll";
 
 
 .divider{
@@ -12,8 +13,8 @@
   margin-bottom: 10px;
   // width: 40%;
 }
-section{
-  padding-top: 60px;
+section, footer{
+  margin-bottom: 90px;
 }
 header{
   img{
@@ -40,7 +41,7 @@ header{
   background-size: cover;
   background-position: top center;
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   .imagen{
     background-color: rgba(0,0,0,0.5);
     // background-attachment: fixed;
@@ -57,7 +58,8 @@ header{
   &__description{
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    color: #e8dfd3;
+    // color: #e8dfd3;
+    color: $morado;
     font-weight: 700;
   }
 }
@@ -76,19 +78,27 @@ header{
    &__imge{
     padding-right: 35px;
     img{
-      width: 15%;
+      width: 10%;
     }
   }
   &__img{
     padding-right: 14px;
     img{
-      width: 20%;
+      width: 15%;
     }
   }
   &__imga{
     padding-right: 20px;
     img{
       width: 25%;
+    }
+  }
+}
+.myAbilities{
+  &__img{
+    padding-right: 35px;
+    img{
+        width: 25%;
     }
   }
 }
@@ -99,18 +109,39 @@ header{
     // width: 20px;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
     img{
       width: 100%;
     }
   }
   &__texto{
-
+    padding-bottom: 20px;
+    padding-left: 30px;
+    a{
+      margin-top: 20px;
+    }
   }
 }
 #contactame{
   padding-bottom: 40px;
   .row{
     margin-bottom: 0;
+  }
+}
+
+.contactameContainer{
+  &__datos{
+    p{
+      margin-bottom: 20px;
+    }
+  }
+  &__cv{
+    margin-bottom: 20px;
+    a{
+      color: black;
+      font-size: 35px;
+      padding: 10px;
+    }
   }
 }
 
