@@ -94,9 +94,6 @@ header{
     }
   }
 }
-.otrasHab{
-  margin-top: 30px;
-}
 .proyecto{
   margin-bottom: 30px;
   &__img{
@@ -177,6 +174,9 @@ footer{
       font-size: 20px;    
     }
   }
+  .otrasHab{
+    margin-top: 30px;
+  }
   h3{
     font-size: 1.3rem;
   }
@@ -204,6 +204,9 @@ footer{
   }
   .section{
     padding-bottom: 0;
+  }
+  .otrasHab{
+    margin-top: 30px;
   }
   .logo{
     &__name{

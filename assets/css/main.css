@@ -113,9 +113,6 @@ header img {
   .myAbilities__img img {
     width: 25%; }
 
-.otrasHab {
-  margin-top: 30px; }
-
 .proyecto {
   margin-bottom: 30px; }
   .proyecto__img {
@@ -172,6 +169,9 @@ footer {
   .logo__description {
     font-size: 20px; }
 
+  .otrasHab {
+    margin-top: 30px; }
+
   h3 {
     font-size: 1.3rem; }
 
@@ -196,6 +196,9 @@ footer {
 
   .section {
     padding-bottom: 0; }
+
+  .otrasHab {
+    margin-top: 30px; }
 
   .logo__name {
     font-size: 50px; }
