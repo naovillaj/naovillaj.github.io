@@ -15,4 +15,6 @@ $(document).ready(function(){
         $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top -70}, 800, 'linear');
   });
 
+  new WOW().init();
+
 });

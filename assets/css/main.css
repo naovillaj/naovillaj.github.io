@@ -92,9 +92,13 @@ header img {
     color: #e8dfd3;
     font-weight: 700; }
 
-.carousel a {
-  font-size: 18px; }
+.carousel {
+  margin-bottom: 30px; }
+  .carousel a {
+    font-size: 20px; }
 
+.tecAbilities .gulpimg img {
+  width: 10% !important; }
 .tecAbilities__imge {
   padding-right: 35px; }
   .tecAbilities__imge img {
@@ -116,11 +120,12 @@ header img {
 .proyecto {
   margin-bottom: 30px; }
   .proyecto__img {
-    border: 2px solid darkgray;
+    padding: 35px !important;
     display: flex;
     justify-content: center;
     padding-bottom: 20px; }
     .proyecto__img img {
+      border: 2px solid darkgray;
       width: 100%; }
   .proyecto__texto {
     padding-bottom: 20px;
@@ -133,16 +138,20 @@ header img {
   #contactame .row {
     margin-bottom: 0; }
 
-.contactameContainer__datos p:hover {
-  color: #c57e87;
-  font-weight: 700;
-  cursor: pointer; }
+.contactameContainer__datos {
+  margin-top: 20px; }
+  .contactameContainer__datos p:hover {
+    color: #c57e87;
+    font-weight: 700;
+    cursor: pointer; }
 .contactameContainer__cv .fa {
   color: black;
   font-size: 35px;
   padding: 10px; }
 .contactameContainer__cv .fa:hover {
   color: #c57e87; }
+.contactameContainer__cv a {
+  margin-top: 30px; }
 
 footer {
   background-color: #c57e87;
@@ -169,8 +178,22 @@ footer {
   .logo__description {
     font-size: 20px; }
 
+  .tecAbilities .gulpimg img {
+    width: 15% !important; }
+  .tecAbilities__imge img {
+    width: 14%; }
+  .tecAbilities__img img {
+    width: 29%; }
+  .tecAbilities__imga img {
+    width: 29%; }
+
   .otrasHab {
     margin-top: 30px; }
+
+  .proyecto {
+    margin-bottom: 30px; }
+    .proyecto__img {
+      padding: 0 !important; }
 
   h3 {
     font-size: 1.3rem; }
@@ -179,7 +202,7 @@ footer {
     font-size: 0.9rem; }
 
   h5 {
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
 
   .row .col {
     padding: 0; } }
@@ -205,6 +228,20 @@ footer {
   .logo__description {
     font-size: 20px; }
 
+  .tecAbilities .gulpimg img {
+    width: 15% !important; }
+  .tecAbilities__imge img {
+    width: 14%; }
+  .tecAbilities__img img {
+    width: 29%; }
+  .tecAbilities__imga img {
+    width: 29%; }
+
+  .proyecto {
+    margin-bottom: 30px; }
+    .proyecto__img {
+      padding: 0 !important; }
+
   h3 {
     font-size: 1.3rem; }
 
@@ -212,7 +249,7 @@ footer {
     font-size: 1.2rem; }
 
   h5 {
-    font-size: 1.1rem; }
+    font-size: 1.2rem; }
 
   .row .col {
     padding: 0; } }

@@ -60,13 +60,19 @@ header{
    font-weight: 700;
   }
 }
- .carousel{    
+ .carousel{   
+  margin-bottom: 30px; 
     a{
-      font-size: 18px;
+      font-size: 20px;
     }
   }
 
 .tecAbilities{
+  .gulpimg{
+    img{
+       width: 10% !important;
+     }     
+    }
    &__imge{
     padding-right: 35px;
     img{
@@ -97,11 +103,12 @@ header{
 .proyecto{
   margin-bottom: 30px;
   &__img{
-    border: 2px solid darkgray;
+    padding: 35px !important;    
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
     img{
+      border: 2px solid darkgray;
       width: 100%;
     }
   }
@@ -122,6 +129,7 @@ header{
 
 .contactameContainer{
   &__datos{
+    margin-top: 20px;
     p{
       @extend %mg-bottom;     
     }
@@ -140,6 +148,9 @@ header{
     }
     .fa:hover{
       color: $morado;
+    }
+    a{
+      margin-top: 30px;
     }
   }
 }
@@ -174,9 +185,37 @@ footer{
       font-size: 20px;    
     }
   }
+  .tecAbilities{
+    .gulpimg{
+      img{
+         width: 15% !important;
+       }     
+    }
+   &__imge{    
+    img{
+      width: 14%;
+    }
+  }
+  &__img{    
+    img{
+      width: 29%;
+    }
+  }
+  &__imga{    
+    img{
+      width: 29%;
+    }
+  }
+}
   .otrasHab{
     margin-top: 30px;
   }
+  .proyecto{
+    margin-bottom: 30px;
+    &__img{
+      padding: 0 !important;
+    }
+  }    
   h3{
     font-size: 1.3rem;
   }
@@ -184,7 +223,7 @@ footer{
     font-size: 0.9rem;
   }
   h5{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .row .col{
     padding: 0;
@@ -216,6 +255,34 @@ footer{
       font-size: 20px;    
     }
   }
+  .tecAbilities{
+    .gulpimg{
+      img{
+        width: 15% !important;
+      }  
+    }
+     &__imge{    
+      img{
+        width: 14%;
+      }
+    }
+    &__img{    
+      img{
+        width: 29%;
+      }
+    }
+    &__imga{    
+      img{
+        width: 29%;
+      }
+    }
+  }
+  .proyecto{
+    margin-bottom: 30px;
+    &__img{
+      padding: 0 !important;
+    }
+  }    
   h3{
     font-size: 1.3rem;
   }
@@ -223,7 +290,7 @@ footer{
     font-size: 1.2rem;
   }
   h5{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   .row .col{
     padding: 0;
