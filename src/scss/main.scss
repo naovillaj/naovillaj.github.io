@@ -191,6 +191,11 @@ footer{
          width: 15% !important;
        }     
     }
+    .sassimg{
+      img{
+        width: 20% !important;
+      }
+    }
    &__imge{    
     img{
       width: 14%;
@@ -228,6 +233,9 @@ footer{
   .row .col{
     padding: 0;
   }
+  .pulse::before{
+    width: 50%;
+  }
 }
 
 @media only screen and (max-device-width: 992px){
@@ -260,6 +268,11 @@ footer{
       img{
         width: 15% !important;
       }  
+    }
+    .sassimg{
+      img{
+        width: 20% !important;
+      }
     }
      &__imge{    
       img{
@@ -294,5 +307,8 @@ footer{
   }
   .row .col{
     padding: 0;
+  }
+  .pulse::before{
+    width: 50%;
   }
 }
