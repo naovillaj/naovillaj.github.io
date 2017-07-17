@@ -14,7 +14,8 @@ h4 {
 
 h5 {
   color: #876a5f;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 1.39rem !important; }
 
 .division {
   margin-bottom: 40px; }
@@ -85,6 +86,7 @@ header img {
   .logo__name {
     font-family: "Pacifico", "Josefin Sans", sans-serif;
     font-size: 80px;
+    font-weight: 400;
     color: #c57e87; }
   .logo__description {
     font-family: "Josefin Sans", sans-serif;
@@ -171,7 +173,7 @@ footer {
     margin-bottom: 0; }
 
   .side-nav {
-    transition-duration: 0.7s; }
+    transition-duration: 0.5s; }
 
   .section {
     padding-bottom: 0; }
@@ -204,13 +206,13 @@ footer {
       padding: 0 15px; }
 
   h3 {
-    font-size: 1.3rem; }
+    font-size: 1.45rem !important; }
 
   h4 {
-    font-size: 0.9rem; }
+    font-size: 1.33rem !important; }
 
   h5 {
-    font-size: 1.2rem; }
+    font-size: 1.15rem !important; }
 
   .row .col {
     padding: 0; }
@@ -232,7 +234,7 @@ footer {
     padding-bottom: 0; }
 
   .side-nav {
-    transition-duration: 0.7s; }
+    transition-duration: 0.5s; }
 
   .otrasHab {
     margin-top: 30px; }
@@ -262,13 +264,13 @@ footer {
       padding: 0 15px; }
 
   h3 {
-    font-size: 1.3rem; }
+    font-size: 1.45rem !important; }
 
   h4 {
-    font-size: 1.2rem; }
+    font-size: 1.33rem !important; }
 
   h5 {
-    font-size: 1.2rem; }
+    font-size: 1.15rem !important; }
 
   .row .col {
     padding: 0; }

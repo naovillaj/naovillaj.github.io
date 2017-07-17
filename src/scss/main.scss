@@ -49,8 +49,10 @@ header{
     align-items: center;
   }
   &__name{
+    // font-family: "Montserrat", sans-serif;
     font-family: "Pacifico", "Josefin Sans", sans-serif;
     font-size: 80px;
+    font-weight: 400;
     color: $morado;
   }
   &__description{
@@ -175,7 +177,7 @@ footer{
     margin-bottom: 0;
   } 
   .side-nav{
-    transition-duration: 0.7s;
+    transition-duration: 0.5s;
   }
   .section{
     padding-bottom: 0;
@@ -231,13 +233,13 @@ footer{
     }
   }    
   h3{
-    font-size: 1.3rem;
+    font-size: 1.45rem !important;
   }
   h4{
-    font-size: 0.9rem;
+    font-size: 1.33rem !important;
   }
   h5{
-    font-size: 1.2rem;
+    font-size: 1.15rem !important;
   }
   .row .col{
     padding: 0;
@@ -262,7 +264,7 @@ footer{
     padding-bottom: 0;
   }
   .side-nav{
-    transition-duration: 0.7s;
+    transition-duration: 0.5s;
   }
   .otrasHab{
     margin-top: 30px;
@@ -315,13 +317,13 @@ footer{
     }
   }    
   h3{
-    font-size: 1.3rem;
+    font-size: 1.45rem !important;
   }
   h4{
-    font-size: 1.2rem;
+    font-size: 1.33rem !important;
   }
   h5{
-    font-size: 1.2rem;
+    font-size: 1.15rem !important;
   }
   .row .col{
     padding: 0;
