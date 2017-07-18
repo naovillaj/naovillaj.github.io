@@ -144,8 +144,7 @@ header img {
   margin-top: 20px; }
   .contactameContainer__datos p:hover {
     color: #c57e87;
-    font-weight: 700;
-    cursor: pointer; }
+    font-weight: 700; }
 .contactameContainer__cv .fa {
   color: black;
   font-size: 35px;
