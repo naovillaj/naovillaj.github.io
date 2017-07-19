@@ -133,12 +133,13 @@ header{
   &__datos{
     margin-top: 50px;
     padding-left: 80px !important;
-    p{
+    p, a{
       @extend %mg-bottom;
+      color: rgba(0, 0, 0, 0.87);
     }
-    p:hover{
+    p:hover, a:hover{
       color: $morado;
-      font-weight: 700;
+      font-weight: 700;      
     }
   }
   &__cv{
