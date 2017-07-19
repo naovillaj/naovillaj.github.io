@@ -141,11 +141,11 @@ header img {
     margin-bottom: 0; }
 
 .contactameContainer__datos {
-  margin-top: 20px; }
+  margin-top: 50px;
+  padding-left: 80px !important; }
   .contactameContainer__datos p:hover {
     color: #c57e87;
-    font-weight: 700;
-    cursor: pointer; }
+    font-weight: 700; }
 .contactameContainer__cv .fa {
   color: black;
   font-size: 35px;
@@ -214,6 +214,12 @@ footer {
   h5 {
     font-size: 1.15rem !important; }
 
+  .contactameContainer__datos {
+    margin-top: 20px;
+    padding-left: 0 !important; }
+    .contactameContainer__datos p {
+      padding-left: 0; }
+
   .row .col {
     padding: 0; }
 
@@ -271,6 +277,12 @@ footer {
 
   h5 {
     font-size: 1.15rem !important; }
+
+  .contactameContainer__datos {
+    margin-top: 20px;
+    padding-left: 0 !important; }
+    .contactameContainer__datos p {
+      padding-left: 0; }
 
   .row .col {
     padding: 0; }

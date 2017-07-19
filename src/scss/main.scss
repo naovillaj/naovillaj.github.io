@@ -131,14 +131,14 @@ header{
 
 .contactameContainer{
   &__datos{
-    margin-top: 20px;
+    margin-top: 50px;
+    padding-left: 80px !important;
     p{
-      @extend %mg-bottom;     
+      @extend %mg-bottom;           
     }
     p:hover{
       color: $morado;
       font-weight: 700;
-      cursor: pointer;
     }
   }
   &__cv{
@@ -241,6 +241,15 @@ footer{
   h5{
     font-size: 1.15rem !important;
   }
+  .contactameContainer{
+    &__datos{
+      margin-top: 20px;
+      padding-left: 0 !important;
+      p{         
+        padding-left: 0;    
+      }
+    }    
+   } 
   .row .col{
     padding: 0;
   }
@@ -325,6 +334,15 @@ footer{
   h5{
     font-size: 1.15rem !important;
   }
+  .contactameContainer{
+    &__datos{
+      margin-top: 20px;
+      padding-left: 0 !important;
+      p{        
+        padding-left: 0;    
+      }
+    } 
+  }  
   .row .col{
     padding: 0;
   }
