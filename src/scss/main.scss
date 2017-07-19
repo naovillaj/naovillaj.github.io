@@ -35,12 +35,12 @@ header{
   background-image: url(../img/fondo2.jpeg);
   background-size: cover;
   background-position: top center;
-  background-attachment: fixed;   
+  background-attachment: fixed;
   background-repeat: no-repeat;
   width: 100%;
   height: 80vh;
   margin-bottom: 90px;
-   
+
   .imagen{
     background-color: rgba(0,0,0,0.5);
     width: 100%;
@@ -62,8 +62,8 @@ header{
    font-weight: 700;
   }
 }
- .carousel{   
-  margin-bottom: 30px; 
+ .carousel{
+  margin-bottom: 30px;
     a{
       font-size: 20px;
     }
@@ -73,7 +73,7 @@ header{
   .gulpimg{
     img{
        width: 10% !important;
-     }     
+     }
     }
    &__imge{
     padding-right: 35px;
@@ -105,7 +105,7 @@ header{
 .proyecto{
   margin-bottom: 30px;
   &__img{
-    padding: 35px !important;    
+    padding: 35px !important;
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -134,7 +134,7 @@ header{
     margin-top: 50px;
     padding-left: 80px !important;
     p{
-      @extend %mg-bottom;           
+      @extend %mg-bottom;
     }
     p:hover{
       color: $morado;
@@ -175,43 +175,43 @@ footer{
   }
   section{
     margin-bottom: 0;
-  } 
+  }
   .side-nav{
     transition-duration: 0.5s;
   }
   .section{
     padding-bottom: 0;
-  }  
+  }
   .logo{
     &__name{
       font-size: 50px;
     }
-    &__description{    
-      font-size: 20px;    
+    &__description{
+      font-size: 20px;
     }
   }
   .tecAbilities{
     .gulpimg{
       img{
          width: 15% !important;
-       }     
+       }
     }
     .sassimg{
       img{
         width: 20% !important;
       }
     }
-   &__imge{    
+   &__imge{
     img{
       width: 14%;
     }
   }
-  &__img{    
+  &__img{
     img{
       width: 29%;
     }
   }
-  &__imga{    
+  &__imga{
     img{
       width: 29%;
     }
@@ -231,7 +231,7 @@ footer{
         padding: 0 15px;
       }
     }
-  }    
+  }
   h3{
     font-size: 1.45rem !important;
   }
@@ -245,11 +245,11 @@ footer{
     &__datos{
       margin-top: 20px;
       padding-left: 0 !important;
-      p{         
-        padding-left: 0;    
+      p{
+        padding-left: 0;
       }
-    }    
-   } 
+    }
+   }
   .row .col{
     padding: 0;
   }
@@ -282,32 +282,32 @@ footer{
     &__name{
       font-size: 50px;
     }
-    &__description{    
-      font-size: 20px;    
+    &__description{
+      font-size: 20px;
     }
   }
   .tecAbilities{
     .gulpimg{
       img{
         width: 15% !important;
-      }  
+      }
     }
     .sassimg{
       img{
         width: 20% !important;
       }
     }
-     &__imge{    
+     &__imge{
       img{
         width: 14%;
       }
     }
-    &__img{    
+    &__img{
       img{
         width: 29%;
       }
     }
-    &__imga{    
+    &__imga{
       img{
         width: 29%;
       }
@@ -324,7 +324,7 @@ footer{
         padding: 0 15px;
       }
     }
-  }    
+  }
   h3{
     font-size: 1.45rem !important;
   }
@@ -338,11 +338,11 @@ footer{
     &__datos{
       margin-top: 20px;
       padding-left: 0 !important;
-      p{        
-        padding-left: 0;    
+      p{
+        padding-left: 0;
       }
-    } 
-  }  
+    }
+  }
   .row .col{
     padding: 0;
   }
