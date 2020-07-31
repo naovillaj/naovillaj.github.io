@@ -17,7 +17,7 @@ h5 {
   margin-bottom: 40px; }
 
 .h5-title {
-  color: #c57e87 !important; }
+  color: #1c2735 !important; }
 
 ::-webkit-scrollbar-button:start:decrement, ::-webkit-scrollbar-button:end:increment {
   display: none; }
@@ -32,12 +32,12 @@ h5 {
 
 ::-webkit-scrollbar-thumb:vertical {
   height: 20px;
-  background-color: #c57e87;
+  background-color: #1c2735;
   border-radius: 5px; }
 
 .divider {
-  border: 2px solid #c57e87;
-  color: #c57e87;
+  border: 2px solid #1c2735;
+  color: #1c2735;
   border-radius: 2px;
   margin-bottom: 10px; }
 
@@ -48,7 +48,7 @@ header img {
   width: 55px; }
 
 .nav-a {
-  background-color: #c57e87; }
+  background-color: #1c2735; }
   .nav-a a {
     font-size: 1.2em;
     color: #ffffff; }
@@ -72,11 +72,11 @@ header img {
   .logo__name {
     font-family: "Pacifico", "Josefin Sans", sans-serif;
     font-size: 80px;
-    color: #c57e87; }
+    color: #1c2735; }
   .logo__description {
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
-    color: #c57e87;
+    color: #1c2735;
     font-weight: 700; }
 
 .carousel a {
@@ -95,8 +95,7 @@ header img {
   .tecAbilities__imga img {
     width: 25%; }
 
-.myAbilities__img {
-  padding-right: 35px; }
+
   .myAbilities__img img {
     width: 25%; }
 
@@ -128,7 +127,7 @@ header img {
     padding: 10px; }
 
 footer {
-  background-color: #c57e87;
+  background-color: #1c2735;
   padding: 20px 0; }
   footer p {
     color: #ffffff; }

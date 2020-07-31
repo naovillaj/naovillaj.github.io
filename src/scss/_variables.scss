@@ -1,11 +1,12 @@
 $blanco: #ffffff;
 $celeste: rgba(203, 212, 219, 0.4);
 $morado: rgb(197, 126, 135);
+$moradoOscuro: #1c2735;
 $lilaClaro: #cdc5ba;
 
 %mg-bottom{
 	margin-bottom: 20px;
-} 
+}
 
 *{
   padding: 0;
@@ -36,7 +37,7 @@ h5{
 	.division{
 	  margin-bottom: 0;
 	}
-}	
+}
 
 @media only screen and (max-device-width: 992px){
 	.division{
