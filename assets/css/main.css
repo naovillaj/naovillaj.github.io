@@ -20,6 +20,12 @@ h5 {
 .division {
   margin-bottom: 40px; }
 
+.division-line{
+  padding: 5px;
+  background-color: #9c9dbc;
+  height: 5px;
+}
+
 .h5-title {
   color: #1c2735 !important; }
 
@@ -86,6 +92,7 @@ header img {
     align-items: center; }
   .logo__name {
     font-family: "Pacifico", "Josefin Sans", sans-serif;
+    padding: 0 10px;
     font-size: 80px;
     font-weight: 400;
     color: #9c9dbc; }
@@ -120,6 +127,10 @@ header img {
   .myAbilities__img img {
     width: 32%; }
 
+.profile p{
+  margin-top: 10px;
+}
+
 .proyecto {
   margin-bottom: 30px; }
   .proyecto__img {
@@ -142,8 +153,8 @@ header img {
     margin-bottom: 0; }
 
 .contactameContainer__datos {
-  margin-top: 50px;
-  padding-left: 80px !important; }
+  margin-top: 40px;
+  padding-left: 0px !important; }
   .contactameContainer__datos p, .contactameContainer__datos a {
     color: rgba(0, 0, 0, 0.87); }
   .contactameContainer__datos p:hover, .contactameContainer__datos a:hover {
