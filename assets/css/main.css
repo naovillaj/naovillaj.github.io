@@ -31,7 +31,9 @@ h5 {
 
 @media only screen and (max-device-width: 768px) {
   .division {
-    margin-bottom: 0; } }
+    margin-bottom: 0; }
+  .h5-title {
+    margin-top: 20px !important; } }
 @media only screen and (max-device-width: 992px) {
   .division {
     margin-bottom: 0; } }
