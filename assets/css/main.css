@@ -21,7 +21,7 @@ h5 {
   margin-bottom: 40px; }
 
 .h5-title {
-  color: #c57e87 !important; }
+  color: #1c2735 !important; }
 
 @media only screen and (max-device-width: 768px) {
   .division {
@@ -42,12 +42,12 @@ h5 {
 
 ::-webkit-scrollbar-thumb:vertical {
   height: 20px;
-  background-color: #c57e87;
+  background-color: #1c2735;
   border-radius: 5px; }
 
 .divider {
-  border: 2px solid #c57e87;
-  color: #c57e87;
+  border: 2px solid #1c2735;
+  color: #1c2735;
   border-radius: 2px;
   margin-bottom: 10px; }
 
@@ -58,13 +58,14 @@ header img {
   width: 55px; }
 
 .nav-a {
-  background-color: #c57e87; }
+  background-color: #1c2735; }
   .nav-a a {
     font-size: 1.2em;
     color: #ffffff; }
 
 .nav-logo {
   margin-left: 3px;
+  margin-top: 10px;
   padding: 4px 2px 2px;
   height: 60px; }
 
@@ -87,7 +88,7 @@ header img {
     font-family: "Pacifico", "Josefin Sans", sans-serif;
     font-size: 80px;
     font-weight: 400;
-    color: #c57e87; }
+    color: #9c9dbc; }
   .logo__description {
     font-family: "Josefin Sans", sans-serif;
     font-size: 30px;
@@ -146,19 +147,19 @@ header img {
   .contactameContainer__datos p, .contactameContainer__datos a {
     color: rgba(0, 0, 0, 0.87); }
   .contactameContainer__datos p:hover, .contactameContainer__datos a:hover {
-    color: #c57e87;
+    color: #1c2735;
     font-weight: 700; }
 .contactameContainer__cv .fa {
   color: black;
   font-size: 35px;
   padding: 10px; }
 .contactameContainer__cv .fa:hover {
-  color: #c57e87; }
+  color: #1c2735; }
 .contactameContainer__cv a {
   margin-top: 30px; }
 
 footer {
-  background-color: #c57e87;
+  background-color: #1c2735;
   padding: 20px 0; }
   footer p {
     color: #ffffff; }
