@@ -227,7 +227,9 @@ footer {
     .proyecto__texto a {
       font-size: 0.8rem;
       padding: 0 15px; }
-
+  img.responsive-img{
+    width: 40%;
+  }
   h3 {
     font-size: 1.45rem !important; }
 
